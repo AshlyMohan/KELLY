@@ -808,6 +808,14 @@ section {
   position: relative;
 } */
 
+ .resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  
+  position: relative;
+} 
+
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
@@ -850,6 +858,23 @@ section {
   background: rgb(1, 252, 43);
   border: 2px solid #f0365e;
 }  */
+
+ .resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  
+  left: -9px;
+  top: 0;
+  background: rgb(1, 252, 43);
+  border: 2px solid #f0365e;
+}  
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Services
